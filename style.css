@@ -1,22 +1,41 @@
 body {
-    background-color: rgb(204, 201, 201);
-    
+    margin: 0 auto;
 }
 
-.feature-icon {
-    width: 4rem;
-    height: 4rem;
-    border-radius: .75rem;
-  }
-
-h2.pb-2.border-bottom {
-    border: 0;
+li > a {
+    font-family:  sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-
-.nav-item > .nav-link {
-    color: white !important;
+.flexcontainer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #292626;
 }
-.navbar-nav .nav-link:hover {
-    background-color: #198754 !important;
+
+.logo {
+    background-color: #292626;
+}
+
+.nav_menu {
+    list-style: none;
+    margin:0;
+    padding:0
+}
+
+.nav_menu li {
+    display:inline-block;
+    padding: 36px 20px
+
+}
+
+.nav_menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_menu li:hover {
+    background-color: rgb(36, 143, 45);
 }
